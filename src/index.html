@@ -1,128 +1,295 @@
 <!DOCTYPE html>
 <html lang="es-Es">
 <head>
-    <meta charset="UTF-8">
-    <title>pagina4</title>
-   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXAMEN FINAL JOSUE</title>
+  
 </head>
-<body>
+  
+  <body>
+ <div class="container">
+   <header class="header">
+     <h1 class="title">JOSUE ERASMO RODRIGUEZ CASTELLANOS</h1>
+     <p id="description" class="description-text">UNIVERSIDAD MARIANO GALVEZ DE GUATEMALA INGENIERIA DE SOFTWARE</p>
+   </header>
+ 
+  <form id="survey-form">
+   
+  <div class="campos">
+  <label id="name-label" for="Name">NOMBRE</label>
+     
+ <input type="text" placeholder="enter your name please" required>
+    </div>
     
-    <header>
-        <h1>Imagenes y Efectos</h1>
-        
-        <p>Diferentes imagenes: de fondo, centradas, cuadricula y por supuesto de transicion</p>
-        
-    </header>
-          
-        
-           <h1>clash royale</h1>
-           <p>En las batallas, los dos adversarios disponen de sus respectivas barajas en rotaciones de cuatro. Según utilices las cartas irán apareciendo otras nuevas para que las sigas combinando a tu criterio. Puedes elegir cartas de ataque, defensa o apoyo dependiendo de las acciones del rival y de tu estrategia. Las cartas consumen elixir para poder ser utilizadas en la batalla. Cada jugador tiene una barra de diez unidades de este elixir que se va recargando progresivamente. Tendrás que estar muy pendiente de cuánto gasta cada carta para hacer las mejores combinaciones y perder el menor tiempo posible.</p>
-           <br/>
-             <br/>
-             
-             <div class="separador1"></div>
-            <img class="centro" 
-            src="foto4.jfif" alt="pruebasx">
-                <div class="separador1"></div>
-                
-                
-               <div class="main">
-                  <div class="separador1"></div>
-                  <img class="centro" src="foto4.jfif" 
-                  alt="la imagen no cargo">
-                  <div class="separador2"></div>
-                  <img src="foto3.jfif" 
-                  alt="imagen de prueba">
-                  
-                   <div class="separador1"></div>
-                   
-                   <img src="descarga.jfif" 
-                   alt="imagen de prueba">
-                   <div class="separador2"></div>
-                   
-                   <img src="foto4.jfif" 
-                   alt="imagen de prueba">
-               </div>
-    <footer>Creado por @JOSUE RODRIGUEZ XD</footer>
+    <div class="campos">
+      <label id="Email-label" for="Email">APELLIDO</label>
+      <input type="Email" placeholder="Enter your Email" required>
+    </div>
+      
+   <div class="campos">
+     <label id="number-label" for="Number">EDAD</label>
+     <input type="number" name="Age" id="Number" min="15" max="100" class="controls" placeholder="Age">
+   </div>
     
+    <select id="dropdown" name="role" class="controls" required>
+      <option disabled selected value>Select current role..</option>
+      
+      <option value="Student">Student</option>
+      <option value="job">Time Job</option>
+      <option value="learner">Time learner</option>
+      <option value="prefer">Prefer not To say</option>
+      <option value="other">Other</option>
+
+    </select>
+	 </form>
+    </div> 
+  
+ <div class="campos">
+   <p>Recommend freecodeCamp to friend Please</p>
+   <label>
+     <input name="user-Recommend" value="definitely" type="radio" class="input-radio" checked>Definitely</label>
+   
+   <label>
+     <input name="user-Recommend" value="maybe" type="radio" class="input-radio">Maybe</label>
+ 
+    <label>
+      <input name="user-Recommend" value="not-sure" type="radio" class="input-radio">Not Sure</label>
+    </div>
+ 
+    <div class="campos">
+      <p>elije una opcion</p>
+      
+      <select name="likes" id="likes" class="campos" required>
+        <option disabled selected value>cual es tu curso favorito</option>
+        
+        <option value="challenges">programacion</option>
+        <option value="projects">Redes</option>
+        <option value="community">Matematicas</option>
+        <option value="opensouce">Sistemas Operativos</option>
+      </select>
+      
+<div class="campos">
+    <p>porque seguiste ingeniera en sistemas? </p>
+  
+  <label>
+    <input name="check" type="checkbox" value="front-end-projects" class="input-checkbox">front-end Projects</label>
+  
+  <label><input name="check" type="checkbox"
+  value="front-end-projects" class="input-checkbox">front-end Projects</label>
+  
+  <label><input name="check" type="checkbox" value="data-visualization" class="input-checkbox">Data Visualization</label>
+  
+  <label><input name="check" type="checkbox" value="challenges" class="input-checkbox">Challenges</label>
+  
+  <label><input name="check" type="checkbox" value="open-source-community" class="input-checkbox">Open Source Community</label>
+  
+    <label><input name="check" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label>
+    
+  <label><input name="check" value="videos" type="checkbox" class="input-checkbox">videos</label>
+  
+  <label><input name="check" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups</label>
+  
+  <label><input name="check" type="checkbox" value="wiki" class="input-checkbox">wiki</label>
+  
+  <label><input type="checkbox" name="check" value="forum" class="input-checkbox">Forum</label>
+  
+  <label><input type="checkbox" name="check" value="additional-courses" class="input-checkbox">Additional Courses</label>
+      </div>
+      
+ <div class="campos">
+   <p>Any comments or suggestions?</p>
+   <textarea name="comment" id="comments" class="input-textarea" placeholder="Enter your comment here please..."></textarea>
+ </div>
+      <button type="submit" id="submit" class="button-submit">Submit</button>
+    </div>
+    
+
 </body>
 
 
-
-
 <style>
-  *{
-    box-sizing: border-box;
+    :root {
+ color:white;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(68, 14, 154, 0.8);
 }
 
-header,footer{
-    background-color: darkcyan;
-    text-align: center;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 20px;
-     margin-left: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-
-
-h1{text-align: center;
-right: left;}
-
-.separador1{
-    height: 10px;
-    clear: both;
+body {
+  font-family:sans-serif;
+  font-size: 1.1rem;
+  font-weight: 450;
+  line-height: 1.4;
+  color: white;
+  margin: 0;
 }
 
-.separador2{
-    width: 2%;
-    height: 1px;
-     float:left;
-  
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -4;
+  background:  #1b1b32;
+  background-image: linear-gradient(
+      115deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(67, 67, 106, 0.7)
+    ),
+    url(https://cdn-3.expansion.mx/dims4/default/7d3824b/2147483647/strip/true/crop/1000x667+0+0/resize/800x534!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff0%2F1d%2Fd0b7fd994e67a9f48564db5f7507%2Fistock-856757428-copy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
-.centro{
-    width: 60%;
-    margin-left: auto;
-    margin-right:auto;
-    display: block;
+h1 {
+  font-weight: 500;
+  line-height: 1.2;
+	text-align:center;
 }
 
-.main{
-    
-    height: 1200px;    
+p {
+  font-size: 1.125rem;
 }
 
-img{
-    transition: all 0.5s linear;
-    border-style: solid;
-    border-color: aliceblue;
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
-img:hover{
-    transform: scale(0.9);
-     border-radius: 30px;
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
 }
 
-
-.main img{
-     width: 49%;
-    float:left;
-
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
+button {
+  border: none;
+}
 
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
 
-body{
-    
-    background-image: url(17009-4k.jpg);
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color:gray;
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
 
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+	text-align: center;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* form */
+
+form {
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.campos {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
 }
 </style>
+
+
 </html>
